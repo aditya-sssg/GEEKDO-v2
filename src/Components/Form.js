@@ -137,9 +137,10 @@ export const Form = () => {
                 <div className='todo' key={individualTodo.ID}>
                   <div>
                       {editForm===false&&(
-                        <input type='checkbox' checked={individualTodo.completed}
+                        <input type='checkbox' className='checkbox' id="checkbox" checked={individualTodo.completed}
                         onChange={()=>handleCheckbox(individualTodo.ID)}/>
                       )}
+                      <label htmlFor="checkbox"></label>
                       <span
                       style={individualTodo.completed===true?{textDecoration:'line-through'}:{textDecoration:'none'}}>{individualTodo.TodoValue}</span>
                   </div>
