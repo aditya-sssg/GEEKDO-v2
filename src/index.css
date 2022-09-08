@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background-color:#fefffe;
+}
+
+.wrapper{
+  display: grid;
+  justify-items: center;
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #202636;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #52575f;
+  font-weight: bold;
+  
+}
+.wrapper h4{
+  font-family: math;
+    font-size: x-large;
+    color: darkslategray;
+}
+.image{
+  width: 53%;
+  height: 53vh;
+  background-image: url(/Humaaans\ -\ 3\ Characters.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 67% 79%;
+    margin-top: -6%;
+    margin-bottom: -4%;
+}
+mark.col {
+  color: #f64813;
+  background: none;
+  text-decoration: underline;
+}
+
+#img {
+  text-align: center;
+  font-size: 20px;
+  color: #52575f;
+  font-weight: bold;
+
+}
+
+
+.form-and-todo-box{
+
+  padding: 11px;
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button{
+  height: 45px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 22px;
+    padding: 1px;
+    display: flex;
+
+}
+
+.form-and-todo-box .input-and-button input{
+  width: 92%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 16px;
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 8px;
+
+}
+
+.form-and-todo-box .input-and-button .button{
+  width: 9%;
+    height: 94%;
+    background-color: #f92c0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    border-radius: 28px;
+}
+
+.form-and-todo-box .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+}
+
+.form-and-todo-box .input-and-button .button button{
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #f92c0f;
+  background-color: transparent;
+  color: #fff;
+}
+
+.todo{
+  font-family: 'Merriweather', sans-serif;
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  border-color: #fff;
+}
+
+.todo input{
+  margin-right: 5px;
+}
+
+.todo span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+}
+
+.delete-all{
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 27px;
+}
