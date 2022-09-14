@@ -133,7 +133,7 @@ export const Form = () => {
 
           {todos.length>0&&(
             <>
-              {todos.map((individualTodo,index)=>(
+              {todos.slice(0).reverse().map((individualTodo,index)=>(
                 <div className='todo' key={individualTodo.ID}>
                   <div>
                       {editForm===false&&(
